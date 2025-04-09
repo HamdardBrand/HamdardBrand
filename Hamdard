@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز ایپ پراڈکٹس</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            background-color: #555;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+        .product {
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 250px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin-top: 10px;
+        }
+        .product p {
+            font-size: 14px;
+            color: #555;
+        }
+        .product button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مرکز ایپ پراڈکٹس</h1>
+        <p>آپ کے پسندیدہ پراڈکٹس یہاں خریدیں</p>
+    </header>
+    <nav>
+        <a href="#">ہوم</a>
+        <a href="#">رابطہ کریں</a>
+        <a href="#">ہم سے ملیں</a>
+    </nav>
+    <div class="product-list">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 1">
+            <h3>پراڈکٹ 1</h3>
+            <p>تفصیل: یہ پراڈکٹ بہترین معیار کا ہے۔</p>
+            <p><strong>قیمت: 1000 PKR</strong></p>
+            <button>اب خریدیں</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 2">
+            <h3>پراڈکٹ 2</h3>
+            <p>تفصیل: یہ پراڈکٹ آپ کے روزمرہ کے کاموں میں معاون ہے۔</p>
+            <p><strong>قیمت: 1200 PKR</strong></p>
+            <button>اب خریدیں</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Product 3">
+            <h3>پراڈکٹ 3</h3>
+            <p>تفصیل: یہ پراڈکٹ اعلیٰ معیار کا ہے۔</p>
+            <p><strong>قیمت: 1500 PKR</strong></p>
+            <button>اب خریدیں</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 مرکز ایپ | سب حقوق محفوظ ہیں</p>
+    </footer>
+</body>
+</html
